@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 14:54+0200\n"
+"POT-Creation-Date: 2018-04-09 18:44-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Dominik Bartenstein <db@zemtu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,117 +17,188 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+#: dashboard/dashboard.py:215
 msgid "Quick links"
 msgstr ""
 
+#: dashboard/dashboard.py:221
 msgid "Return to site"
 msgstr "Zur Website zurückkehren"
 
+#: dashboard/dashboard.py:222
 msgid "Change password"
 msgstr ""
 
+#: dashboard/dashboard.py:224
 msgid "Log out"
 msgstr ""
 
+#: dashboard/dashboard.py:232 dashboard/modules.py:299
 msgid "Applications"
 msgstr ""
 
+#: dashboard/dashboard.py:240
 msgid "Administration"
 msgstr ""
 
+#: dashboard/dashboard.py:248 dashboard/modules.py:446
 msgid "Recent Actions"
 msgstr ""
 
+#: dashboard/dashboard.py:256
 msgid "Latest Django News"
 msgstr "Aktuelle Django Neuigkeiten"
 
+#: dashboard/dashboard.py:265
 msgid "Support"
 msgstr ""
 
+#: dashboard/dashboard.py:268
 msgid "Django documentation"
 msgstr "Django Dokumentation"
 
+#: dashboard/dashboard.py:273
 msgid "Django \"django-users\" mailing list"
 msgstr "Django \"django-users\" Mailingliste"
 
+#: dashboard/dashboard.py:278
 msgid "Django irc channel"
 msgstr "Django IRC Kanal"
 
+#: dashboard/dashboard.py:293
 msgid "Application models"
 msgstr "Anwendungsmodelle"
 
+#: dashboard/dashboard_modules/google_analytics.py:149
+#: dashboard/dashboard_modules/yandex_metrika.py:107
 msgid "Revoke access"
 msgstr "Zugriff zurückziehen"
 
+#: dashboard/dashboard_modules/google_analytics.py:154
+#: dashboard/dashboard_modules/yandex_metrika.py:112
 msgid "Grant access"
 msgstr "Zugriff erlauben"
 
+#: dashboard/dashboard_modules/google_analytics.py:167
+#: dashboard/dashboard_modules/yandex_metrika.py:122
 msgid "Access"
 msgstr "Zugriff"
 
+#: dashboard/dashboard_modules/google_analytics.py:168
+#: dashboard/dashboard_modules/yandex_metrika.py:123
 msgid "Counter"
 msgstr "Zähler"
 
+#: dashboard/dashboard_modules/google_analytics.py:169
+#: dashboard/dashboard_modules/yandex_metrika.py:124
 msgid "Statistics period"
 msgstr "Statistikzeitraum"
 
+#: dashboard/dashboard_modules/google_analytics.py:170
+#: dashboard/dashboard_modules/yandex_metrika.py:125
 msgid "Today"
 msgstr ""
 
+#: dashboard/dashboard_modules/google_analytics.py:171
+#: dashboard/dashboard_modules/yandex_metrika.py:126
 msgid "Last week"
 msgstr "Letzte Woche"
 
+#: dashboard/dashboard_modules/google_analytics.py:172
+#: dashboard/dashboard_modules/yandex_metrika.py:127
 msgid "Last month"
 msgstr "Letzer Monat"
 
+#: dashboard/dashboard_modules/google_analytics.py:173
+#: dashboard/dashboard_modules/yandex_metrika.py:128
 msgid "Last quarter"
 msgstr "Letztes Quartal"
 
+#: dashboard/dashboard_modules/google_analytics.py:174
+#: dashboard/dashboard_modules/yandex_metrika.py:129
 msgid "Last year"
 msgstr "Letztes Jahr"
 
 # Hint: message id None in contrib/admin
+#: dashboard/dashboard_modules/google_analytics.py:184
+#: dashboard/dashboard_modules/yandex_metrika.py:139
 msgid "none"
 msgstr ""
 
+#: dashboard/dashboard_modules/google_analytics.py:187
+#: dashboard/dashboard_modules/yandex_metrika.py:142
 msgid "grant access first"
 msgstr "Zuerst muss Zugriff erlaubt werden"
 
+#: dashboard/dashboard_modules/google_analytics.py:187
+#: dashboard/dashboard_modules/yandex_metrika.py:142
 msgid "counters loading failed"
 msgstr "Laden des Zählers fehlgeschlagen"
 
+#: dashboard/dashboard_modules/google_analytics.py:192
+#: dashboard/dashboard_modules/yandex_metrika.py:147
 msgid "Show"
 msgstr ""
 
+#: dashboard/dashboard_modules/google_analytics.py:193
+#: dashboard/dashboard_modules/google_analytics.py:330
+#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:15
 msgid "users"
 msgstr ""
 
+#: dashboard/dashboard_modules/google_analytics.py:194
+#: dashboard/dashboard_modules/google_analytics.py:331
+#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:16
 msgid "sessions"
 msgstr ""
 
+#: dashboard/dashboard_modules/google_analytics.py:195
+#: dashboard/dashboard_modules/google_analytics.py:332
+#: dashboard/dashboard_modules/yandex_metrika.py:150
+#: dashboard/dashboard_modules/yandex_metrika.py:271
+#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:17
+#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:17
 msgid "views"
 msgstr ""
 
+#: dashboard/dashboard_modules/google_analytics.py:197
+#: dashboard/dashboard_modules/google_analytics.py:205
+#: dashboard/dashboard_modules/yandex_metrika.py:152
+#: dashboard/dashboard_modules/yandex_metrika.py:160
 msgid "Group"
 msgstr ""
 
+#: dashboard/dashboard_modules/google_analytics.py:198
+#: dashboard/dashboard_modules/google_analytics.py:206
+#: dashboard/dashboard_modules/yandex_metrika.py:153
+#: dashboard/dashboard_modules/yandex_metrika.py:161
 msgid "By day"
 msgstr "Nach Tag"
 
+#: dashboard/dashboard_modules/google_analytics.py:199
+#: dashboard/dashboard_modules/google_analytics.py:207
+#: dashboard/dashboard_modules/yandex_metrika.py:154
+#: dashboard/dashboard_modules/yandex_metrika.py:162
 msgid "By week"
 msgstr "Nach Woche"
 
+#: dashboard/dashboard_modules/google_analytics.py:200
+#: dashboard/dashboard_modules/google_analytics.py:208
+#: dashboard/dashboard_modules/yandex_metrika.py:155
+#: dashboard/dashboard_modules/yandex_metrika.py:163
 msgid "By month"
 msgstr "Nach Monat"
 
+#: dashboard/dashboard_modules/google_analytics.py:281
 #, python-format
 msgid ""
 "Please <a href=\"%s\">attach Google account and choose Google Analytics "
 "counter</a> to start using widget"
 msgstr ""
-"Bitte <a href=\"%s\">mit Google Konto verbinden und Google Analytics "
-"Zähler auswählen</a>, um das Widget verwenden zu können"
+"Bitte <a href=\"%s\">mit Google Konto verbinden und Google Analytics Zähler "
+"auswählen</a>, um das Widget verwenden zu können"
 
+#: dashboard/dashboard_modules/google_analytics.py:284
 #, python-format
 msgid ""
 "Please <a href=\"%s\">select Google Analytics counter</a> to start using "
@@ -136,196 +207,294 @@ msgstr ""
 "Bitte <a href=\"%s\">Google Analytics Zähler auswählen</a>, um das Widget "
 "verwenden zu können"
 
+#: dashboard/dashboard_modules/google_analytics.py:303
+#: dashboard/dashboard_modules/google_analytics_views.py:46
+#: dashboard/dashboard_modules/yandex_metrika.py:240
+#: dashboard/dashboard_modules/yandex_metrika_views.py:41
 msgid "API request failed."
 msgstr "API Request fehlgeschlagen."
 
+#: dashboard/dashboard_modules/google_analytics.py:305
+#: dashboard/dashboard_modules/yandex_metrika.py:242
 #, python-format
 msgid " Try to <a href=\"%s\">revoke and grant access</a> again"
-msgstr " Versuche <a href=\"%s\">Zugriff zurückzuziehen und anschließend wieder zu erlauben</a>"
+msgstr ""
+" Versuche <a href=\"%s\">Zugriff zurückzuziehen und anschließend wieder zu "
+"erlauben</a>"
 
+#: dashboard/dashboard_modules/google_analytics.py:315
 msgid "Google Analytics visitors totals"
 msgstr "Google Analytics Besucher insgesamt"
 
+#: dashboard/dashboard_modules/google_analytics.py:334
+#: dashboard/dashboard_modules/google_analytics.py:392
+#: dashboard/dashboard_modules/google_analytics.py:442
+#: dashboard/dashboard_modules/yandex_metrika.py:273
+#: dashboard/dashboard_modules/yandex_metrika.py:325
+#: dashboard/dashboard_modules/yandex_metrika.py:369
 msgid "Bad server response"
 msgstr ""
 
+#: dashboard/dashboard_modules/google_analytics.py:344
 msgid "Google Analytics visitors chart"
 msgstr "Google Analytics Besucher Diagramm"
 
+#: dashboard/dashboard_modules/google_analytics.py:402
 msgid "Google Analytics period visitors"
 msgstr "Google Analytics Besucher im Zeitraum"
 
+#: dashboard/dashboard_modules/google_analytics_views.py:30
+#: dashboard/dashboard_modules/google_analytics_views.py:50
+#: dashboard/dashboard_modules/yandex_metrika_views.py:27
+#: dashboard/dashboard_modules/yandex_metrika_views.py:49
 msgid "Module not found"
 msgstr "Modul nicht gefunden"
 
+#: dashboard/dashboard_modules/google_analytics_views.py:48
+#: dashboard/dashboard_modules/yandex_metrika_views.py:47
 msgid "Bad arguments"
 msgstr "Falsche Argumente"
 
+#: dashboard/dashboard_modules/yandex_metrika.py:148
+#: dashboard/dashboard_modules/yandex_metrika.py:269
+#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:15
 msgid "visitors"
 msgstr "Besucher"
 
+#: dashboard/dashboard_modules/yandex_metrika.py:149
+#: dashboard/dashboard_modules/yandex_metrika.py:270
+#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:16
 msgid "visits"
 msgstr "Besuche"
 
+#: dashboard/dashboard_modules/yandex_metrika.py:223
 #, python-format
 msgid ""
 "Please <a href=\"%s\">attach Yandex account and choose Yandex Metrika "
 "counter</a> to start using widget"
 msgstr ""
-"Bitte <a href=\"%s\">Yandex Konto verbinden und Yandex Metrika "
-"Zähler auswählen</a>, um Widget zu verwenden"
+"Bitte <a href=\"%s\">Yandex Konto verbinden und Yandex Metrika Zähler "
+"auswählen</a>, um Widget zu verwenden"
 
+#: dashboard/dashboard_modules/yandex_metrika.py:226
 #, python-format
 msgid ""
 "Please <a href=\"%s\">select Yandex Metrika counter</a> to start using widget"
 msgstr ""
-"Bitte <a href=\"%s\">Yandex Metrika Zähler auwählen</a>, um das Widget verwenden zu können"
+"Bitte <a href=\"%s\">Yandex Metrika Zähler auwählen</a>, um das Widget "
+"verwenden zu können"
 
+#: dashboard/dashboard_modules/yandex_metrika.py:254
 msgid "Yandex Metrika visitors totals"
 msgstr "Yandex Metrika Besucher insgesamt"
 
+#: dashboard/dashboard_modules/yandex_metrika.py:283
 msgid "Yandex Metrika visitors chart"
 msgstr "Yandex Metrika Besucher Diagramm"
 
+#: dashboard/dashboard_modules/yandex_metrika.py:335
 msgid "Yandex Metrika period visitors"
 msgstr "Yandex Metrika Besuche im Zeitraum"
 
+#: dashboard/models.py:11 dashboard/modules.py:164
 msgid "Title"
 msgstr ""
 
+#: dashboard/models.py:12
 msgid "module"
 msgstr "Modul"
 
+#: dashboard/models.py:13
 msgid "application name"
 msgstr ""
 
+#: dashboard/models.py:14
 msgid "user"
 msgstr ""
 
+#: dashboard/models.py:15
 msgid "column"
 msgstr "Spalte"
 
+#: dashboard/models.py:16
 msgid "order"
 msgstr "Sortierung"
 
+#: dashboard/models.py:17
 msgid "settings"
 msgstr "Einstellungen"
 
+#: dashboard/models.py:18
 msgid "children"
 msgstr "Kinder"
 
+#: dashboard/models.py:19
 msgid "collapsed"
 msgstr "eingeklappt"
 
+#: dashboard/models.py:22
 msgid "user dashboard module"
 msgstr "Benutzer Dashboard Modul"
 
+#: dashboard/models.py:23
 msgid "user dashboard modules"
 msgstr "Benutzer Dashboard Module"
 
+#: dashboard/modules.py:163
 msgid "URL"
 msgstr ""
 
+#: dashboard/modules.py:165
 msgid "External link"
 msgstr "Externer Link"
 
+#: dashboard/modules.py:169
 msgid "Layout"
 msgstr ""
 
+#: dashboard/modules.py:169
 msgid "Stacked"
 msgstr "Gestapelt"
 
+#: dashboard/modules.py:169
 msgid "Inline"
 msgstr ""
 
+#: dashboard/modules.py:215 dashboard/modules.py:239
 msgid "Links"
 msgstr "Links"
 
+#: dashboard/modules.py:238
 msgid "Link"
 msgstr "Link"
 
+#: dashboard/modules.py:372
 msgid "Models"
 msgstr "Modelle"
 
+#: dashboard/modules.py:416 dashboard/modules.py:523
 msgid "Items limit"
 msgstr "Objektlimit"
 
+#: dashboard/modules.py:524
 msgid "Feed URL"
 msgstr ""
 
+#: dashboard/modules.py:555
 msgid "RSS Feed"
 msgstr ""
 
+#: dashboard/modules.py:601
 msgid "You must install the FeedParser python module"
 msgstr "Bitte FeedParser Python modul installieren"
 
+#: dashboard/modules.py:606
 msgid "You must provide a valid feed URL"
 msgstr "Bitte eine gültige Feed URL angeben"
 
+#: dashboard/templates/jet.dashboard/dashboard.html:17
 msgid "Delete widget"
 msgstr "Widget löschen"
 
+#: dashboard/templates/jet.dashboard/dashboard.html:18
 msgid "Are you sure want to delete this widget?"
 msgstr "Sind sie sicher, dass sie das Widget löschen wollen?"
 
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:12
 msgid "widgets"
 msgstr "Widgets"
 
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:13
 msgid "available"
 msgstr "verfügbar"
 
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:18
 msgid "initials"
 msgstr ""
 
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:23
+#: dashboard/templates/jet.dashboard/modules/app_list.html:18
+#: dashboard/templates/jet.dashboard/modules/model_list.html:8
 msgid "Add"
 msgstr ""
 
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:26
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:32
 msgid "Reset widgets"
 msgstr "Widgets zurücksetzen"
 
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:33
 msgid "Are you sure want to reset widgets?"
 msgstr "Sind sie sicher, dass sie die Widgets zurücksetzen wollen?"
 
+#: dashboard/templates/jet.dashboard/module.html:9
+#: dashboard/templates/jet.dashboard/modules/app_list.html:24
+#: dashboard/templates/jet.dashboard/modules/model_list.html:14
+#: dashboard/views.py:94
 msgid "Change"
 msgstr ""
 
+#: dashboard/templates/jet.dashboard/module.html:12
+#: dashboard/templates/jet.dashboard/update_module.html:55
+#: dashboard/templates/jet.dashboard/update_module.html:57
 msgid "Delete"
 msgstr ""
 
+#: dashboard/templates/jet.dashboard/modules/app_list.html:7
+#: dashboard/templates/jet.dashboard/modules/app_list.html:10
 #, python-format
 msgid "Models in the %(name)s application"
 msgstr ""
 
+#: dashboard/templates/jet.dashboard/modules/feed.html:13
+#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:34
+#: dashboard/templates/jet.dashboard/modules/google_analytics_visitors_chart.html:30
+#: dashboard/templates/jet.dashboard/modules/google_analytics_visitors_totals.html:23
+#: dashboard/templates/jet.dashboard/modules/link_list.html:26
+#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:34
+#: dashboard/templates/jet.dashboard/modules/yandex_metrika_visitors_chart.html:30
+#: dashboard/templates/jet.dashboard/modules/yandex_metrika_visitors_totals.html:23
 msgid "Nothing to show"
 msgstr "Nichts anzuzeigen"
 
+#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:14
+#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:14
 msgid "Date"
 msgstr ""
 
+#: dashboard/templates/jet.dashboard/modules/recent_actions.html:6
 msgid "None available"
 msgstr ""
 
+#: dashboard/templates/jet.dashboard/modules/recent_actions.html:30
 msgid "Unknown content"
 msgstr ""
 
+#: dashboard/templates/jet.dashboard/update_module.html:7
 msgid "Home"
 msgstr ""
 
+#: dashboard/templates/jet.dashboard/update_module.html:25
 msgid "Please correct the errors below."
 msgstr ""
 
+#: dashboard/templates/jet.dashboard/update_module.html:69
 #, python-format
 msgid "Add another %(verbose_name)s"
 msgstr ""
 
+#: dashboard/templates/jet.dashboard/update_module.html:81
 msgid "Save"
 msgstr ""
 
+#: dashboard/views.py:23
 msgid "Widget was successfully updated"
 msgstr "Widget wurde erfolgreich aktualisiert"
 
+#: dashboard/views.py:98 dashboard/views.py:99
 msgid "Items"
 msgstr "Objekte"
 
+#: dashboard/views.py:165
 msgid "Widget has been successfully added"
 msgstr "Widget wurde erfolgreich hinzugefügt"
