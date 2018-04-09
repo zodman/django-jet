@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-25 12:27+0430\n"
+"POT-Creation-Date: 2018-04-09 18:44-0500\n"
 "PO-Revision-Date: 2017-05-25 12:30+0430\n"
 "Last-Translator: Pyzenberg <pyzenberg@gmail.com>\n"
 "Language-Team: \n"
@@ -26,7 +26,7 @@ msgstr "از تاریخ"
 msgid "To date"
 msgstr "تا تاریخ"
 
-#: models.py:9 templates/admin/base.html:287
+#: models.py:9 templates/admin/base.html:291
 msgid "URL"
 msgstr "آدرس"
 
@@ -46,7 +46,7 @@ msgstr "تاریخ ایجاد"
 msgid "bookmark"
 msgstr "بوکمارک"
 
-#: models.py:16 templates/admin/base.html:303
+#: models.py:16 templates/admin/base.html:307
 msgid "bookmarks"
 msgstr "بوکمارک"
 
@@ -62,76 +62,76 @@ msgstr "اپلیکیشن پین شده"
 msgid "pinned applications"
 msgstr "اپلیکیشن های پین شده"
 
-#: templates/admin/base.html:57
+#: templates/admin/base.html:60
 msgid "Welcome,"
 msgstr "خوش آمدید،"
 
-#: templates/admin/base.html:62 templates/admin/base.html:178
+#: templates/admin/base.html:65 templates/admin/base.html:182
 msgid "View site"
 msgstr "نمایش سایت"
 
-#: templates/admin/base.html:67 templates/admin/base.html:187
+#: templates/admin/base.html:70 templates/admin/base.html:191
 msgid "Documentation"
 msgstr "مستندات"
 
-#: templates/admin/base.html:71
+#: templates/admin/base.html:74
 msgid "Change password"
 msgstr "تغییر رمز عبور"
 
-#: templates/admin/base.html:73
+#: templates/admin/base.html:76
 msgid "Log out"
 msgstr "خروج"
 
-#: templates/admin/base.html:83 templates/admin/base.html:170
+#: templates/admin/base.html:86 templates/admin/base.html:174
 msgid "Home"
 msgstr "خانه"
 
-#: templates/admin/base.html:150
+#: templates/admin/base.html:154
 msgid "back"
 msgstr "بازگشت"
 
-#: templates/admin/base.html:231
+#: templates/admin/base.html:235
 msgid "Applications"
 msgstr "اپلیکیشن ها"
 
-#: templates/admin/base.html:255
+#: templates/admin/base.html:259
 msgid "Hide applications"
 msgstr "اپلیکیشن های مخفی شده"
 
-#: templates/admin/base.html:256
+#: templates/admin/base.html:260
 msgid "Show hidden"
 msgstr "نمایش پنهان‌شده"
 
-#: templates/admin/base.html:282 templates/admin/base.html:301
+#: templates/admin/base.html:286 templates/admin/base.html:305
 msgid "Add bookmark"
 msgstr "افزودن بوکمارک"
 
-#: templates/admin/base.html:285
+#: templates/admin/base.html:289
 msgid "Title"
 msgstr "عنوان"
 
-#: templates/admin/base.html:295
+#: templates/admin/base.html:299
 msgid "Delete bookmark"
 msgstr "حذف بوکمارک"
 
-#: templates/admin/base.html:296
+#: templates/admin/base.html:300
 msgid "Are you sure want to delete this bookmark?"
 msgstr "آیا می‌خواهید بوکمارک‌ را حذف کنید؟"
 
-#: templates/admin/base.html:311 templates/admin/base.html:318
+#: templates/admin/base.html:315 templates/admin/base.html:322
 #: templates/admin/edit_inline/compact.html:3
 msgid "Remove"
 msgstr "حذف"
 
-#: templates/admin/base.html:340 templates/rangefilter/date_filter.html:33
+#: templates/admin/base.html:344 templates/rangefilter/date_filter.html:33
 msgid "Search"
 msgstr "جستجو"
 
-#: templates/admin/base.html:345
+#: templates/admin/base.html:349
 msgid "Application page"
 msgstr "صفحه اپلیکیشن"
 
-#: templates/admin/base.html:371
+#: templates/admin/base.html:375
 msgid "current theme"
 msgstr "تم فعلی"
 

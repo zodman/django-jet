@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-23 08:49-0300\n"
+"POT-Creation-Date: 2018-04-09 18:44-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Sedir Morais <philippi.sedir@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,54 +17,159 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: models.py:16 templates/admin/base.html:294
-msgid "bookmarks"
-msgstr "marcadores"
+#: filters.py:70
+msgid "From date"
+msgstr ""
 
-#: templates/admin/base.html:133
-msgid "back"
-msgstr "voltar"
+#: filters.py:76
+msgid "To date"
+msgstr ""
 
-#: templates/admin/base.html:60
-msgid "View site"
-msgstr "Ver site"
-
-#: templates/admin/base.html:273 templates/admin/base.html:292
-msgid "Add bookmark"
-msgstr "Adicionar marcador"
-
-#: templates/admin/base.html:286
-msgid "Delete bookmark"
-msgstr "Remover marcador"
-
-#: templates/admin/base.html:287
-msgid "Are you sure want to delete this bookmark?"
-msgstr "Você tem certeza que deseja remover esse marcador?"
-
-#: templates/admin/base.html:339
-msgid "Application page"
-msgstr "Página da aplicação"
-
-#: templates/admin/base.html:276
-msgid "Title"
-msgstr "Título"
-
-#: templates/admin/base.html:278
+#: models.py:9 templates/admin/base.html:291
 msgid "URL"
 msgstr "URL"
 
-#: templates/admin/base.html:217
+#: models.py:10
+#, fuzzy
+#| msgid "Title"
+msgid "title"
+msgstr "Título"
+
+#: models.py:11 models.py:26
+msgid "user"
+msgstr ""
+
+#: models.py:12 models.py:27
+msgid "date created"
+msgstr ""
+
+#: models.py:15
+#, fuzzy
+#| msgid "bookmarks"
+msgid "bookmark"
+msgstr "marcadores"
+
+#: models.py:16 templates/admin/base.html:307
+msgid "bookmarks"
+msgstr "marcadores"
+
+#: models.py:25
+#, fuzzy
+#| msgid "Application page"
+msgid "application name"
+msgstr "Página da aplicação"
+
+#: models.py:30
+#, fuzzy
+#| msgid "Hide applications"
+msgid "pinned application"
+msgstr "Esconder aplicações"
+
+#: models.py:31
+#, fuzzy
+#| msgid "Hide applications"
+msgid "pinned applications"
+msgstr "Esconder aplicações"
+
+#: templates/admin/base.html:60
+msgid "Welcome,"
+msgstr ""
+
+#: templates/admin/base.html:65 templates/admin/base.html:182
+msgid "View site"
+msgstr "Ver site"
+
+#: templates/admin/base.html:70 templates/admin/base.html:191
+msgid "Documentation"
+msgstr ""
+
+#: templates/admin/base.html:74
+msgid "Change password"
+msgstr ""
+
+#: templates/admin/base.html:76
+msgid "Log out"
+msgstr ""
+
+#: templates/admin/base.html:86 templates/admin/base.html:174
+msgid "Home"
+msgstr ""
+
+#: templates/admin/base.html:154
+msgid "back"
+msgstr "voltar"
+
+#: templates/admin/base.html:235
 msgid "Applications"
 msgstr "Aplicações"
 
-#: templates/admin/base.html:243
+#: templates/admin/base.html:259
 msgid "Hide applications"
 msgstr "Esconder aplicações"
 
-#: templates/admin/base.html:244
+#: templates/admin/base.html:260
 msgid "Show hidden"
 msgstr "Mostrar escondidos"
 
-#: templates/admin/base.html:363
+#: templates/admin/base.html:286 templates/admin/base.html:305
+msgid "Add bookmark"
+msgstr "Adicionar marcador"
+
+#: templates/admin/base.html:289
+msgid "Title"
+msgstr "Título"
+
+#: templates/admin/base.html:299
+msgid "Delete bookmark"
+msgstr "Remover marcador"
+
+#: templates/admin/base.html:300
+msgid "Are you sure want to delete this bookmark?"
+msgstr "Você tem certeza que deseja remover esse marcador?"
+
+#: templates/admin/base.html:315 templates/admin/base.html:322
+#: templates/admin/edit_inline/compact.html:3
+msgid "Remove"
+msgstr ""
+
+#: templates/admin/base.html:344 templates/rangefilter/date_filter.html:33
+msgid "Search"
+msgstr ""
+
+#: templates/admin/base.html:349
+msgid "Application page"
+msgstr "Página da aplicação"
+
+#: templates/admin/base.html:375
 msgid "current theme"
 msgstr "tema atual"
+
+#: templates/admin/edit_inline/compact.html:12
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: templates/admin/edit_inline/compact.html:37
+msgid "Change"
+msgstr ""
+
+#: templates/admin/edit_inline/compact.html:43
+#, fuzzy
+#| msgid "View site"
+msgid "View on site"
+msgstr "Ver site"
+
+#: templates/admin/popup_response.html:4
+msgid "Popup closing..."
+msgstr ""
+
+#: templates/jet/related_field_ajax_list_filter.html:2
+#: templates/rangefilter/date_filter.html:2
+#: templates/rangefilter/date_filter.html:16
+#, python-format
+msgid " By %(filter_title)s "
+msgstr ""
+
+#: templates/rangefilter/date_filter.html:34
+msgid "Reset"
+msgstr ""

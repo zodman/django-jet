@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-20 10:03+0800\n"
+"POT-Creation-Date: 2018-04-09 18:44-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,147 +17,147 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: jet/filters.py:67
+#: filters.py:70
 msgid "From date"
 msgstr "起始日期"
 
-#: jet/filters.py:73
+#: filters.py:76
 msgid "To date"
 msgstr "结束日期"
 
-#: jet/models.py:9 jet/templates/admin/base.html:276
+#: models.py:9 templates/admin/base.html:291
 msgid "URL"
 msgstr "URL"
 
-#: jet/models.py:10
+#: models.py:10
 msgid "title"
 msgstr "标题"
 
-#: jet/models.py:11 jet/models.py:26
+#: models.py:11 models.py:26
 msgid "user"
 msgstr "用户"
 
-#: jet/models.py:12 jet/models.py:27
+#: models.py:12 models.py:27
 msgid "date created"
 msgstr "创建日期"
 
-#: jet/models.py:15
+#: models.py:15
 msgid "bookmark"
 msgstr "书签"
 
-#: jet/models.py:16 jet/templates/admin/base.html:292
+#: models.py:16 templates/admin/base.html:307
 msgid "bookmarks"
 msgstr "书签"
 
-#: jet/models.py:25
+#: models.py:25
 msgid "application name"
 msgstr "应用名称"
 
-#: jet/models.py:30
+#: models.py:30
 msgid "pinned application"
 msgstr "固定应用"
 
-#: jet/models.py:31
+#: models.py:31
 msgid "pinned applications"
 msgstr "固定应用"
 
-#: jet/templates/admin/base.html:53
+#: templates/admin/base.html:60
 msgid "Welcome,"
 msgstr "欢迎,"
 
-#: jet/templates/admin/base.html:58 jet/templates/admin/base.html:159
+#: templates/admin/base.html:65 templates/admin/base.html:182
 msgid "View site"
 msgstr "查看站点"
 
-#: jet/templates/admin/base.html:63 jet/templates/admin/base.html:168
+#: templates/admin/base.html:70 templates/admin/base.html:191
 msgid "Documentation"
 msgstr "文档"
 
-#: jet/templates/admin/base.html:67
+#: templates/admin/base.html:74
 msgid "Change password"
 msgstr "修改密码"
 
-#: jet/templates/admin/base.html:69
+#: templates/admin/base.html:76
 msgid "Log out"
 msgstr "退出"
 
-#: jet/templates/admin/base.html:78 jet/templates/admin/base.html:151
+#: templates/admin/base.html:86 templates/admin/base.html:174
 msgid "Home"
 msgstr "首页"
 
-#: jet/templates/admin/base.html:131
+#: templates/admin/base.html:154
 msgid "back"
 msgstr "返回"
 
-#: jet/templates/admin/base.html:215
+#: templates/admin/base.html:235
 msgid "Applications"
 msgstr "应用"
 
-#: jet/templates/admin/base.html:241
+#: templates/admin/base.html:259
 msgid "Hide applications"
 msgstr "隐藏应用"
 
-#: jet/templates/admin/base.html:242
+#: templates/admin/base.html:260
 msgid "Show hidden"
 msgstr "显示隐藏项"
 
-#: jet/templates/admin/base.html:271 jet/templates/admin/base.html:290
+#: templates/admin/base.html:286 templates/admin/base.html:305
 msgid "Add bookmark"
 msgstr "添加书签"
 
-#: jet/templates/admin/base.html:274
+#: templates/admin/base.html:289
 msgid "Title"
 msgstr "标题"
 
-#: jet/templates/admin/base.html:284
+#: templates/admin/base.html:299
 msgid "Delete bookmark"
 msgstr "删除书签"
 
-#: jet/templates/admin/base.html:285
+#: templates/admin/base.html:300
 msgid "Are you sure want to delete this bookmark?"
 msgstr "你确定要删除这个书签吗？"
 
-#: jet/templates/admin/base.html:300 jet/templates/admin/base.html:307
-#: jet/templates/admin/edit_inline/compact.html:3
+#: templates/admin/base.html:315 templates/admin/base.html:322
+#: templates/admin/edit_inline/compact.html:3
 msgid "Remove"
 msgstr "删除"
 
-#: jet/templates/admin/base.html:337
+#: templates/admin/base.html:344 templates/rangefilter/date_filter.html:33
+msgid "Search"
+msgstr "查找"
+
+#: templates/admin/base.html:349
 msgid "Application page"
 msgstr "应用页"
 
-#: jet/templates/admin/base.html:361
+#: templates/admin/base.html:375
 msgid "current theme"
 msgstr "当前主题"
 
-#: jet/templates/admin/edit_inline/compact.html:12
+#: templates/admin/edit_inline/compact.html:12
 #, python-format
 msgid "Add another %(verbose_name)s"
 msgstr "添加另一个%(verbose_name)s"
 
-#: jet/templates/admin/edit_inline/compact.html:37
+#: templates/admin/edit_inline/compact.html:37
 msgid "Change"
 msgstr "修改"
 
-#: jet/templates/admin/edit_inline/compact.html:43
+#: templates/admin/edit_inline/compact.html:43
 msgid "View on site"
 msgstr "在站点中查看"
 
-#: jet/templates/admin/popup_response.html:4
+#: templates/admin/popup_response.html:4
 msgid "Popup closing..."
 msgstr "弹窗关闭中..."
 
-#: jet/templates/jet/related_field_ajax_list_filter.html:2
-#: jet/templates/rangefilter/date_filter.html:2
-#: jet/templates/rangefilter/date_filter.html:16
+#: templates/jet/related_field_ajax_list_filter.html:2
+#: templates/rangefilter/date_filter.html:2
+#: templates/rangefilter/date_filter.html:16
 #, python-format
 msgid " By %(filter_title)s "
 msgstr "By %(filter_title)s"
 
-#: jet/templates/rangefilter/date_filter.html:33
-msgid "Search"
-msgstr "查找"
-
-#: jet/templates/rangefilter/date_filter.html:34
+#: templates/rangefilter/date_filter.html:34
 msgid "Reset"
 msgstr "重置"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-28 13:32+0000\n"
+"POT-Creation-Date: 2018-04-09 18:44-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,217 +17,178 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: dashboard/modules.py:138 templates/admin/base.html:281
-msgid "URL"
-msgstr "URL"
-
-#: dashboard/dashboard.py:207
+#: dashboard/dashboard.py:215
 msgid "Quick links"
 msgstr "Rychlé odkazy"
 
-#: dashboard/dashboard.py:213
+#: dashboard/dashboard.py:221
 msgid "Return to site"
 msgstr "Vrátit na stránku"
 
-#: dashboard/dashboard.py:224 dashboard/modules.py:268
+#: dashboard/dashboard.py:222
+msgid "Change password"
+msgstr ""
+
+#: dashboard/dashboard.py:224
+msgid "Log out"
+msgstr ""
+
+#: dashboard/dashboard.py:232 dashboard/modules.py:299
 msgid "Applications"
 msgstr "Aplikace"
 
-#: dashboard/dashboard.py:232
+#: dashboard/dashboard.py:240
 msgid "Administration"
 msgstr "Administrace"
 
-#: dashboard/dashboard.py:240 dashboard/modules.py:413
+#: dashboard/dashboard.py:248 dashboard/modules.py:446
 msgid "Recent Actions"
 msgstr "Poslední akce"
 
-#: dashboard/dashboard.py:248
+#: dashboard/dashboard.py:256
 msgid "Latest Django News"
 msgstr "Nejnovější zprávy o Djangu"
 
-#: dashboard/dashboard.py:257
+#: dashboard/dashboard.py:265
 msgid "Support"
 msgstr "Podpora"
 
-#: dashboard/dashboard.py:260
+#: dashboard/dashboard.py:268
 msgid "Django documentation"
 msgstr "Django dokumentace"
 
-#: dashboard/dashboard.py:265
+#: dashboard/dashboard.py:273
 msgid "Django \"django-users\" mailing list"
 msgstr "Django \"django-users\" mailing list"
 
-#: dashboard/dashboard.py:270
+#: dashboard/dashboard.py:278
 msgid "Django irc channel"
 msgstr "Django irc kanál"
 
-#: dashboard/dashboard.py:285
+#: dashboard/dashboard.py:293
 msgid "Application models"
 msgstr "Modely aplikace"
 
-#: dashboard/models.py:11 dashboard/modules.py:139
-msgid "Title"
-msgstr "Název"
-
-#: dashboard/modules.py:140
-msgid "External link"
-msgstr "Externí odkazy"
-
-#: dashboard/modules.py:144
-msgid "Layout"
-msgstr "Rozložení"
-
-#: dashboard/modules.py:144
-msgid "Stacked"
-msgstr ""
-
-#: dashboard/modules.py:144
-msgid "Inline"
-msgstr ""
-
-#: dashboard/modules.py:190 dashboard/modules.py:214
-msgid "Links"
-msgstr "Odkazy"
-
-#: dashboard/modules.py:213
-msgid "Link"
-msgstr "Odkaz"
-
-#: dashboard/modules.py:340
-msgid "Models"
-msgstr "Modely"
-
-#: dashboard/modules.py:383 dashboard/modules.py:490
-msgid "Items limit"
-msgstr "Limit položek"
-
-#: dashboard/modules.py:491
-msgid "Feed URL"
-msgstr "URL feedu"
-
-#: dashboard/modules.py:522
-msgid "RSS Feed"
-msgstr "RSS Feed"
-
-#: dashboard/modules.py:568
-msgid "You must install the FeedParser python module"
-msgstr "Musíte nainstalovat FeedParser python modul"
-
-#: dashboard/modules.py:573
-msgid "You must provide a valid feed URL"
-msgstr "Musíte zadat valídní URL feedu"
-
-#: dashboard/views.py:17
-msgid "Widget was successfully updated"
-msgstr "Widget byl úspěšně aktualizován"
-
-#: dashboard/views.py:89 dashboard/views.py:90
-msgid "Items"
-msgstr "Položky"
-
-#: dashboard/views.py:152
-msgid "Widget has been successfully added"
-msgstr "Widget byl úspěšně přidán"
-
-#: dashboard/dashboard_modules/google_analytics.py:145
-#: dashboard/dashboard_modules/yandex_metrika.py:102
+#: dashboard/dashboard_modules/google_analytics.py:149
+#: dashboard/dashboard_modules/yandex_metrika.py:107
 msgid "Revoke access"
 msgstr "Odebrat přístup"
 
-#: dashboard/dashboard_modules/google_analytics.py:150
-#: dashboard/dashboard_modules/yandex_metrika.py:107
+#: dashboard/dashboard_modules/google_analytics.py:154
+#: dashboard/dashboard_modules/yandex_metrika.py:112
 msgid "Grant access"
 msgstr "Povolit přístup"
 
-#: dashboard/dashboard_modules/google_analytics.py:163
-#: dashboard/dashboard_modules/yandex_metrika.py:117
+#: dashboard/dashboard_modules/google_analytics.py:167
+#: dashboard/dashboard_modules/yandex_metrika.py:122
 msgid "Access"
 msgstr "Přístup"
 
-#: dashboard/dashboard_modules/google_analytics.py:164
-#: dashboard/dashboard_modules/yandex_metrika.py:118
+#: dashboard/dashboard_modules/google_analytics.py:168
+#: dashboard/dashboard_modules/yandex_metrika.py:123
 msgid "Counter"
 msgstr "Počítadlo"
 
-#: dashboard/dashboard_modules/google_analytics.py:165
-#: dashboard/dashboard_modules/yandex_metrika.py:119
+#: dashboard/dashboard_modules/google_analytics.py:169
+#: dashboard/dashboard_modules/yandex_metrika.py:124
 msgid "Statistics period"
 msgstr "Statistická perioda"
 
-#: dashboard/dashboard_modules/google_analytics.py:166
-#: dashboard/dashboard_modules/yandex_metrika.py:120
+#: dashboard/dashboard_modules/google_analytics.py:170
+#: dashboard/dashboard_modules/yandex_metrika.py:125
 msgid "Today"
 msgstr "Dnes"
 
-#: dashboard/dashboard_modules/google_analytics.py:167
-#: dashboard/dashboard_modules/yandex_metrika.py:121
+#: dashboard/dashboard_modules/google_analytics.py:171
+#: dashboard/dashboard_modules/yandex_metrika.py:126
 msgid "Last week"
 msgstr "Poslední týden"
 
-#: dashboard/dashboard_modules/google_analytics.py:168
-#: dashboard/dashboard_modules/yandex_metrika.py:122
+#: dashboard/dashboard_modules/google_analytics.py:172
+#: dashboard/dashboard_modules/yandex_metrika.py:127
 msgid "Last month"
 msgstr "Poslední měsíc"
 
-#: dashboard/dashboard_modules/google_analytics.py:169
-#: dashboard/dashboard_modules/yandex_metrika.py:123
+#: dashboard/dashboard_modules/google_analytics.py:173
+#: dashboard/dashboard_modules/yandex_metrika.py:128
 msgid "Last quarter"
 msgstr "Poslední čtvrtletí"
 
-#: dashboard/dashboard_modules/google_analytics.py:170
-#: dashboard/dashboard_modules/yandex_metrika.py:124
+#: dashboard/dashboard_modules/google_analytics.py:174
+#: dashboard/dashboard_modules/yandex_metrika.py:129
 msgid "Last year"
 msgstr "Poslední rok"
 
-#: dashboard/dashboard_modules/google_analytics.py:180
-#: dashboard/dashboard_modules/yandex_metrika.py:134
+#: dashboard/dashboard_modules/google_analytics.py:184
+#: dashboard/dashboard_modules/yandex_metrika.py:139
 msgid "none"
 msgstr "nic"
 
-#: dashboard/dashboard_modules/google_analytics.py:183
-#: dashboard/dashboard_modules/yandex_metrika.py:137
+#: dashboard/dashboard_modules/google_analytics.py:187
+#: dashboard/dashboard_modules/yandex_metrika.py:142
 msgid "grant access first"
 msgstr "povolte nejdřív přístup"
 
-#: dashboard/dashboard_modules/google_analytics.py:183
-#: dashboard/dashboard_modules/yandex_metrika.py:137
+#: dashboard/dashboard_modules/google_analytics.py:187
+#: dashboard/dashboard_modules/yandex_metrika.py:142
 msgid "counters loading failed"
 msgstr "nepodařilo se načíst počítadla"
 
-#: dashboard/dashboard_modules/google_analytics.py:188
-#: dashboard/dashboard_modules/yandex_metrika.py:142
+#: dashboard/dashboard_modules/google_analytics.py:192
+#: dashboard/dashboard_modules/yandex_metrika.py:147
 msgid "Show"
 msgstr "Zobrazit"
 
 #: dashboard/dashboard_modules/google_analytics.py:193
-#: dashboard/dashboard_modules/google_analytics.py:201
-#: dashboard/dashboard_modules/yandex_metrika.py:147
-#: dashboard/dashboard_modules/yandex_metrika.py:155
+#: dashboard/dashboard_modules/google_analytics.py:330
+#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:15
+msgid "users"
+msgstr "uživatelé"
+
+#: dashboard/dashboard_modules/google_analytics.py:194
+#: dashboard/dashboard_modules/google_analytics.py:331
+#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:16
+msgid "sessions"
+msgstr "sezení"
+
+#: dashboard/dashboard_modules/google_analytics.py:195
+#: dashboard/dashboard_modules/google_analytics.py:332
+#: dashboard/dashboard_modules/yandex_metrika.py:150
+#: dashboard/dashboard_modules/yandex_metrika.py:271
+#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:17
+#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:17
+msgid "views"
+msgstr "zobrazení"
+
+#: dashboard/dashboard_modules/google_analytics.py:197
+#: dashboard/dashboard_modules/google_analytics.py:205
+#: dashboard/dashboard_modules/yandex_metrika.py:152
+#: dashboard/dashboard_modules/yandex_metrika.py:160
 msgid "Group"
 msgstr "Skupina"
 
-#: dashboard/dashboard_modules/google_analytics.py:194
-#: dashboard/dashboard_modules/google_analytics.py:202
-#: dashboard/dashboard_modules/yandex_metrika.py:148
-#: dashboard/dashboard_modules/yandex_metrika.py:156
+#: dashboard/dashboard_modules/google_analytics.py:198
+#: dashboard/dashboard_modules/google_analytics.py:206
+#: dashboard/dashboard_modules/yandex_metrika.py:153
+#: dashboard/dashboard_modules/yandex_metrika.py:161
 msgid "By day"
 msgstr "Dle dne"
 
-#: dashboard/dashboard_modules/google_analytics.py:195
-#: dashboard/dashboard_modules/google_analytics.py:203
-#: dashboard/dashboard_modules/yandex_metrika.py:149
-#: dashboard/dashboard_modules/yandex_metrika.py:157
+#: dashboard/dashboard_modules/google_analytics.py:199
+#: dashboard/dashboard_modules/google_analytics.py:207
+#: dashboard/dashboard_modules/yandex_metrika.py:154
+#: dashboard/dashboard_modules/yandex_metrika.py:162
 msgid "By week"
 msgstr "Dle týdne"
 
-#: dashboard/dashboard_modules/google_analytics.py:196
-#: dashboard/dashboard_modules/google_analytics.py:204
-#: dashboard/dashboard_modules/yandex_metrika.py:150
-#: dashboard/dashboard_modules/yandex_metrika.py:158
+#: dashboard/dashboard_modules/google_analytics.py:200
+#: dashboard/dashboard_modules/google_analytics.py:208
+#: dashboard/dashboard_modules/yandex_metrika.py:155
+#: dashboard/dashboard_modules/yandex_metrika.py:163
 msgid "By month"
 msgstr "Dle měsíce"
 
-#: dashboard/dashboard_modules/google_analytics.py:277
+#: dashboard/dashboard_modules/google_analytics.py:281
 #, python-format
 msgid ""
 "Please <a href=\"%s\">attach Google account and choose Google Analytics "
@@ -236,7 +197,7 @@ msgstr ""
 "Prosím <a href=\"%s\">připojte Google účet a vyberte Google Analytics "
 "počítadlo</a> pro využívání widgetu"
 
-#: dashboard/dashboard_modules/google_analytics.py:280
+#: dashboard/dashboard_modules/google_analytics.py:284
 #, python-format
 msgid ""
 "Please <a href=\"%s\">select Google Analytics counter</a> to start using "
@@ -245,109 +206,188 @@ msgstr ""
 "Prosím <a href=\"%s\">vyberte Google Analytics počítadlo</a> pro využívání "
 "widgetu"
 
-#: dashboard/dashboard_modules/google_analytics.py:299
-#: dashboard/dashboard_modules/google_analytics_views.py:42
-#: dashboard/dashboard_modules/yandex_metrika.py:236
-#: dashboard/dashboard_modules/yandex_metrika_views.py:37
+#: dashboard/dashboard_modules/google_analytics.py:303
+#: dashboard/dashboard_modules/google_analytics_views.py:46
+#: dashboard/dashboard_modules/yandex_metrika.py:240
+#: dashboard/dashboard_modules/yandex_metrika_views.py:41
 msgid "API request failed."
 msgstr "Požadavek API se nezdařil."
 
-#: dashboard/dashboard_modules/google_analytics.py:301
-#: dashboard/dashboard_modules/yandex_metrika.py:238
+#: dashboard/dashboard_modules/google_analytics.py:305
+#: dashboard/dashboard_modules/yandex_metrika.py:242
 #, python-format
 msgid " Try to <a href=\"%s\">revoke and grant access</a> again"
 msgstr " Zkuste <a href=\"%s\">zakázat a povolit přístup</a> znovu"
 
-#: dashboard/dashboard_modules/google_analytics.py:311
+#: dashboard/dashboard_modules/google_analytics.py:315
 msgid "Google Analytics visitors totals"
 msgstr "Celkový počet návštěvníků Google Analytics"
 
-#: dashboard/dashboard_modules/google_analytics.py:189
-#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:15
-#: dashboard/dashboard_modules/google_analytics.py:326
-msgid "users"
-msgstr "uživatelé"
-
-#: dashboard/dashboard_modules/google_analytics.py:190
-#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:16
-#: dashboard/dashboard_modules/google_analytics.py:327
-msgid "sessions"
-msgstr "sezení"
-
-#: dashboard/dashboard_modules/google_analytics.py:191
-#: dashboard/dashboard_modules/yandex_metrika.py:146
-#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:17
-#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:17
-#: dashboard/dashboard_modules/google_analytics.py:328
-#: dashboard/dashboard_modules/yandex_metrika.py:267
-msgid "views"
-msgstr "zobrazení"
-
-#: dashboard/dashboard_modules/google_analytics.py:330
-#: dashboard/dashboard_modules/google_analytics.py:388
-#: dashboard/dashboard_modules/google_analytics.py:438
-#: dashboard/dashboard_modules/yandex_metrika.py:269
-#: dashboard/dashboard_modules/yandex_metrika.py:321
-#: dashboard/dashboard_modules/yandex_metrika.py:365
+#: dashboard/dashboard_modules/google_analytics.py:334
+#: dashboard/dashboard_modules/google_analytics.py:392
+#: dashboard/dashboard_modules/google_analytics.py:442
+#: dashboard/dashboard_modules/yandex_metrika.py:273
+#: dashboard/dashboard_modules/yandex_metrika.py:325
+#: dashboard/dashboard_modules/yandex_metrika.py:369
 msgid "Bad server response"
 msgstr "Špatná odpověď serveru"
 
-#: dashboard/dashboard_modules/google_analytics.py:340
+#: dashboard/dashboard_modules/google_analytics.py:344
 msgid "Google Analytics visitors chart"
 msgstr "Graf návštěvníků Google Analytics"
 
-#: dashboard/dashboard_modules/google_analytics.py:398
+#: dashboard/dashboard_modules/google_analytics.py:402
 msgid "Google Analytics period visitors"
 msgstr "Perioda návštěvníků Google Analytics"
 
-#: dashboard/dashboard_modules/google_analytics_views.py:26
-#: dashboard/dashboard_modules/google_analytics_views.py:46
-#: dashboard/dashboard_modules/yandex_metrika_views.py:23
-#: dashboard/dashboard_modules/yandex_metrika_views.py:45
+#: dashboard/dashboard_modules/google_analytics_views.py:30
+#: dashboard/dashboard_modules/google_analytics_views.py:50
+#: dashboard/dashboard_modules/yandex_metrika_views.py:27
+#: dashboard/dashboard_modules/yandex_metrika_views.py:49
 msgid "Module not found"
 msgstr "Modul nedostupný"
 
-#: dashboard/dashboard_modules/google_analytics_views.py:44
-#: dashboard/dashboard_modules/yandex_metrika_views.py:43
+#: dashboard/dashboard_modules/google_analytics_views.py:48
+#: dashboard/dashboard_modules/yandex_metrika_views.py:47
 msgid "Bad arguments"
 msgstr "Špatné argumenty"
 
-#: dashboard/dashboard_modules/yandex_metrika.py:219
+#: dashboard/dashboard_modules/yandex_metrika.py:148
+#: dashboard/dashboard_modules/yandex_metrika.py:269
+#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:15
+msgid "visitors"
+msgstr ""
+
+#: dashboard/dashboard_modules/yandex_metrika.py:149
+#: dashboard/dashboard_modules/yandex_metrika.py:270
+#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:16
+msgid "visits"
+msgstr ""
+
+#: dashboard/dashboard_modules/yandex_metrika.py:223
 #, python-format
 msgid ""
 "Please <a href=\"%s\">attach Yandex account and choose Yandex Metrika "
 "counter</a> to start using widget"
 msgstr ""
 
-#: dashboard/dashboard_modules/yandex_metrika.py:222
+#: dashboard/dashboard_modules/yandex_metrika.py:226
 #, python-format
 msgid ""
 "Please <a href=\"%s\">select Yandex Metrika counter</a> to start using widget"
 msgstr ""
 
-#: dashboard/dashboard_modules/yandex_metrika.py:250
+#: dashboard/dashboard_modules/yandex_metrika.py:254
 msgid "Yandex Metrika visitors totals"
 msgstr ""
 
-#: dashboard/dashboard_modules/yandex_metrika.py:144
-#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:15
-#: dashboard/dashboard_modules/yandex_metrika.py:265
-msgid "visitors"
-msgstr ""
-
-#: dashboard/dashboard_modules/yandex_metrika.py:145
-#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:16
-#: dashboard/dashboard_modules/yandex_metrika.py:266
-msgid "visits"
-msgstr ""
-
-#: dashboard/dashboard_modules/yandex_metrika.py:279
+#: dashboard/dashboard_modules/yandex_metrika.py:283
 msgid "Yandex Metrika visitors chart"
 msgstr ""
 
-#: dashboard/dashboard_modules/yandex_metrika.py:331
+#: dashboard/dashboard_modules/yandex_metrika.py:335
 msgid "Yandex Metrika period visitors"
 msgstr ""
+
+#: dashboard/models.py:11 dashboard/modules.py:164
+msgid "Title"
+msgstr "Název"
+
+#: dashboard/models.py:12
+msgid "module"
+msgstr ""
+
+#: dashboard/models.py:13
+#, fuzzy
+#| msgid "Application models"
+msgid "application name"
+msgstr "Modely aplikace"
+
+#: dashboard/models.py:14
+#, fuzzy
+#| msgid "users"
+msgid "user"
+msgstr "uživatelé"
+
+#: dashboard/models.py:15
+msgid "column"
+msgstr ""
+
+#: dashboard/models.py:16
+msgid "order"
+msgstr ""
+
+#: dashboard/models.py:17
+msgid "settings"
+msgstr ""
+
+#: dashboard/models.py:18
+msgid "children"
+msgstr ""
+
+#: dashboard/models.py:19
+msgid "collapsed"
+msgstr ""
+
+#: dashboard/models.py:22
+msgid "user dashboard module"
+msgstr ""
+
+#: dashboard/models.py:23
+msgid "user dashboard modules"
+msgstr ""
+
+#: dashboard/modules.py:163
+msgid "URL"
+msgstr "URL"
+
+#: dashboard/modules.py:165
+msgid "External link"
+msgstr "Externí odkazy"
+
+#: dashboard/modules.py:169
+msgid "Layout"
+msgstr "Rozložení"
+
+#: dashboard/modules.py:169
+msgid "Stacked"
+msgstr ""
+
+#: dashboard/modules.py:169
+msgid "Inline"
+msgstr ""
+
+#: dashboard/modules.py:215 dashboard/modules.py:239
+msgid "Links"
+msgstr "Odkazy"
+
+#: dashboard/modules.py:238
+msgid "Link"
+msgstr "Odkaz"
+
+#: dashboard/modules.py:372
+msgid "Models"
+msgstr "Modely"
+
+#: dashboard/modules.py:416 dashboard/modules.py:523
+msgid "Items limit"
+msgstr "Limit položek"
+
+#: dashboard/modules.py:524
+msgid "Feed URL"
+msgstr "URL feedu"
+
+#: dashboard/modules.py:555
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+#: dashboard/modules.py:601
+msgid "You must install the FeedParser python module"
+msgstr "Musíte nainstalovat FeedParser python modul"
+
+#: dashboard/modules.py:606
+msgid "You must provide a valid feed URL"
+msgstr "Musíte zadat valídní URL feedu"
 
 #: dashboard/templates/jet.dashboard/dashboard.html:17
 msgid "Delete widget"
@@ -357,26 +397,53 @@ msgstr "Smazat widget"
 msgid "Are you sure want to delete this widget?"
 msgstr "Opravdu si přejete smazat tento widget?"
 
-#: dashboard/templates/jet.dashboard/dashboard_tools.html:7
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:12
 msgid "widgets"
 msgstr "widgety"
 
-#: dashboard/templates/jet.dashboard/dashboard_tools.html:8
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:13
 msgid "available"
 msgstr "dostupné"
 
-#: dashboard/templates/jet.dashboard/dashboard_tools.html:13
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:18
 msgid "initials"
 msgstr "počáteční"
 
-#: dashboard/templates/jet.dashboard/dashboard_tools.html:21
-#: dashboard/templates/jet.dashboard/dashboard_tools.html:27
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:23
+#: dashboard/templates/jet.dashboard/modules/app_list.html:18
+#: dashboard/templates/jet.dashboard/modules/model_list.html:8
+msgid "Add"
+msgstr ""
+
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:26
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:32
 msgid "Reset widgets"
 msgstr "Resetovat widgety"
 
-#: dashboard/templates/jet.dashboard/dashboard_tools.html:28
+#: dashboard/templates/jet.dashboard/dashboard_tools.html:33
 msgid "Are you sure want to reset widgets?"
 msgstr "Opravdu si přejete resetovat widgety?"
+
+#: dashboard/templates/jet.dashboard/module.html:9
+#: dashboard/templates/jet.dashboard/modules/app_list.html:24
+#: dashboard/templates/jet.dashboard/modules/model_list.html:14
+#: dashboard/views.py:94
+msgid "Change"
+msgstr ""
+
+#: dashboard/templates/jet.dashboard/module.html:12
+#: dashboard/templates/jet.dashboard/update_module.html:55
+#: dashboard/templates/jet.dashboard/update_module.html:57
+#, fuzzy
+#| msgid "Delete widget"
+msgid "Delete"
+msgstr "Smazat widget"
+
+#: dashboard/templates/jet.dashboard/modules/app_list.html:7
+#: dashboard/templates/jet.dashboard/modules/app_list.html:10
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr ""
 
 #: dashboard/templates/jet.dashboard/modules/feed.html:13
 #: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:34
@@ -388,3 +455,47 @@ msgstr "Opravdu si přejete resetovat widgety?"
 #: dashboard/templates/jet.dashboard/modules/yandex_metrika_visitors_totals.html:23
 msgid "Nothing to show"
 msgstr "Nic ke zobrazení"
+
+#: dashboard/templates/jet.dashboard/modules/google_analytics_period_visitors.html:14
+#: dashboard/templates/jet.dashboard/modules/yandex_metrika_period_visitors.html:14
+msgid "Date"
+msgstr ""
+
+#: dashboard/templates/jet.dashboard/modules/recent_actions.html:6
+#, fuzzy
+#| msgid "available"
+msgid "None available"
+msgstr "dostupné"
+
+#: dashboard/templates/jet.dashboard/modules/recent_actions.html:30
+msgid "Unknown content"
+msgstr ""
+
+#: dashboard/templates/jet.dashboard/update_module.html:7
+msgid "Home"
+msgstr ""
+
+#: dashboard/templates/jet.dashboard/update_module.html:25
+msgid "Please correct the errors below."
+msgstr ""
+
+#: dashboard/templates/jet.dashboard/update_module.html:69
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: dashboard/templates/jet.dashboard/update_module.html:81
+msgid "Save"
+msgstr ""
+
+#: dashboard/views.py:23
+msgid "Widget was successfully updated"
+msgstr "Widget byl úspěšně aktualizován"
+
+#: dashboard/views.py:98 dashboard/views.py:99
+msgid "Items"
+msgstr "Položky"
+
+#: dashboard/views.py:165
+msgid "Widget has been successfully added"
+msgstr "Widget byl úspěšně přidán"
