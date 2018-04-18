@@ -473,7 +473,7 @@ msgstr "Inicio"
 
 #: dashboard/templates/jet.dashboard/update_module.html:25
 msgid "Please correct the errors below."
-msgstr "Por favor corrija los errores debajo mostrados."
+msgstr "Por favor, llene correctamente todos los campos."
 
 #: dashboard/templates/jet.dashboard/update_module.html:69
 #, python-format
